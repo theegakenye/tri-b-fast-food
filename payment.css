@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(web12.jpg);
+   background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: auto;
+    height: 45px;
+    margin: auto;
+    background-image: url();
+    background-size: contain;
+    align-items: center;
+    padding: 35px;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 45px;
+    justify-content: space-between;
+    
+}
+.navbar ul li a{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 6s;
+    text-transform: capitalize;
+
+}
+.social{
+    align-items: right;
+    padding-right:  100%x;
+    margin: 0 30px;
+}
+.navbar ul li a:hover{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 6s;
+}
+.navbar h2:hover{
+   color: blue;
+   font-family: fantasy;
+   font-size: 25px;
+}
+.navbar span:hover{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+ }
+.navbar span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+    color: yellowgreen;
+    cursor: pointer;
+    transition: all 6s;
+}
+.logo{
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+}
+.body{
+    align-items: center;
+}
+.body p{
+    color:chartreuse; 
+    text-align: center;  
+    font-size: 25px;
+}
+.content button{
+    width: 150px; 
+   border-radius: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: darkred;
+   transition: all 6s;
+   height: 30px;
+}
+.content button:hover{
+   background-color: black;
+   border-radius: 20px;
+}
+.content button a{
+   color: whitesmoke;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-transform: uppercase;
+}
